@@ -1,4 +1,4 @@
-module github.com/go-rfe/log
+module github.com/go-rfe/logging
 
 go 1.17
 

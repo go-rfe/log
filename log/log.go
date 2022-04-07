@@ -32,3 +32,10 @@ func Error() *zerolog.Event {
 func Fatal() *zerolog.Event {
 	return Logger.Fatal()
 }
+
+// Debug starts a new message with debug level.
+//
+// You must call Msg on the returned event in order to send the event.
+func Debug() *zerolog.Event {
+	return Logger.Debug()
+}

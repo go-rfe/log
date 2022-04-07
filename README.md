@@ -1,1 +1,1 @@
-# Common log module for ready to import usage
+# Common logging module for ready to import usage
