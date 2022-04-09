@@ -25,7 +25,7 @@ func Level(level string) {
 }
 
 func HTTPRequestLogger(level string) func(next http.Handler) http.Handler {
-	logger := httplog.NewLogger("metrics", httplog.Options{
+	logger := httplog.NewLogger("loyalty", httplog.Options{
 		JSON:     false,
 		LogLevel: strings.ToLower(level),
 	})
